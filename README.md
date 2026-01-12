@@ -103,7 +103,7 @@
   </tr>
 </table>
 
-* Designed an integrated system combining **AE sensor-Arduino and Arduino-Python**.
+* Designed an integrated system combining [**AE sensor-Arduino and Arduino-Python**](https://github.com/iseungsang01/Resume/blob/main/%EB%86%8D%EA%B3%B5%EC%B0%BD%EC%9D%98%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C_%EA%B5%AC%EC%A1%B0%EB%8C%80%ED%8C%80.pdf).
 * Visualized the location and intensity of structure defects in steel plate and frame structures.
 
 ---
