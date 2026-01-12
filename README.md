@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seung Sang LEE | Portfolio</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
     <style>
         :root {
             --primary-color: #003a71; /* SNU Blue */
@@ -37,10 +38,10 @@
         }
 
         .profile-img {
-            width: 150px;
-            height: 180px;
+            width: 140px;
+            height: 170px;
             object-fit: cover;
-            border-radius: 15px;
+            border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             margin-bottom: 20px;
         }
@@ -57,19 +58,18 @@
             margin-bottom: 20px;
         }
 
-        .badges img {
-            margin: 0 3px;
-            transition: transform 0.2s;
+        .contact-links a {
+            text-decoration: none;
+            margin: 0 5px;
+            display: inline-block;
         }
-
-        .badges img:hover { transform: translateY(-3px); }
 
         /* Section Styling */
         section {
             background: var(--card-bg);
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
             margin-bottom: 30px;
         }
 
@@ -79,84 +79,45 @@
             padding-left: 15px;
             margin-bottom: 25px;
             color: var(--primary-color);
+            display: flex;
+            align-items: center;
         }
 
-        /* Overview Table */
-        .overview-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.95rem;
-        }
+        .section-icon { margin-right: 10px; }
 
-        .overview-table th {
-            background: #f1f3f5;
-            padding: 12px;
-            text-align: left;
-        }
-
-        .overview-table td {
-            padding: 12px;
-            border-bottom: 1px solid #eee;
-        }
-
-        .date-badge {
-            background: #e9ecef;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-family: monospace;
-            font-weight: bold;
-            font-size: 0.85rem;
-        }
-
-        /* List Styling */
-        .exp-item {
+        /* Item Styling */
+        .item {
             margin-bottom: 25px;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
         }
 
-        .exp-header {
+        .item:last-child { border-bottom: none; }
+
+        .item-header {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 8px;
+            flex-wrap: wrap;
         }
 
-        .exp-title {
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
+        .item-title { font-weight: bold; font-size: 1.15rem; color: #111; }
+        .item-date { font-family: monospace; color: var(--text-sub); font-size: 0.9rem; background: #eee; padding: 2px 8px; border-radius: 4px; }
+        .item-sub { color: var(--secondary-color); font-style: italic; margin-bottom: 8px; font-size: 0.95rem; }
 
-        ul {
-            padding-left: 20px;
-            margin: 5px 0;
-        }
+        ul { padding-left: 20px; margin: 8px 0; }
+        li { margin-bottom: 6px; }
+        b { color: var(--primary-color); }
 
-        li { margin-bottom: 5px; }
+        /* Award & Scholarship Badges */
+        .badge-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+        .badge { font-size: 0.85rem; padding: 3px 10px; border-radius: 20px; background: #eef2f7; color: var(--primary-color); border: 1px solid #d0dbe9; }
 
-        /* Skills Grid */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
+        footer { text-align: center; padding: 40px 0; color: #999; font-size: 0.9rem; }
 
-        .skill-cat h4 {
-            margin-bottom: 10px;
-            color: var(--accent);
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px 0;
-            color: #999;
-            font-size: 0.9rem;
-        }
-
-        /* Responsive */
         @media (max-width: 600px) {
-            .exp-header { flex-direction: column; }
-            .date-badge { margin-top: 5px; display: inline-block; }
+            .item-header { flex-direction: column; }
+            .item-date { margin-top: 5px; }
         }
     </style>
 </head>
@@ -166,121 +127,114 @@
     <header>
         <img src="https://raw.githubusercontent.com/iseungsang01/github.io/main/%EC%9D%B4%EC%8A%B9%EC%83%81_%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84.jpg?raw=true" alt="Seung Sang LEE" class="profile-img">
         <h1>Seung Sang, LEE 🚀</h1>
-        <p class="subtitle">Bachelor Student of Rural Systems Engineering & Nuclear Engineering at <b>Seoul National University</b></p>
+        <p class="subtitle">Bachelor Student of <b>Rural Systems Engineering & Nuclear Engineering</b> at SNU</p>
         
-        <div class="badges">
+        <div class="contact-links">
             <a href="mailto:lss010330@snu.ac.kr"><img src="https://img.shields.io/badge/Email-lss010330@snu.ac.kr-D14836?style=flat-square&logo=Gmail&logoColor=white"></a>
             <a href="https://www.linkedin.com/in/%EC%8A%B9%EC%83%81-%EC%9D%B4-55560a27a/"><img src="https://img.shields.io/badge/LinkedIn-SeungSang_Lee-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"></a>
-            <a href="https://glaze-frost-837.notion.site/NuScale-Power-25-09-28-27993068735680969e08c3fafc947a5d?source=copy_link"><img src="https://img.shields.io/badge/Notion-Stock_Report-000000?style=flat-square&logo=Notion&logoColor=white"></a>
             <a href="https://github.com/iseungsang01"><img src="https://img.shields.io/badge/GitHub-iseungsang01-181717?style=flat-square&logo=GitHub&logoColor=white"></a>
         </div>
     </header>
 
-    <section>
-        <h2>🚀 Experience Overview</h2>
-        <table class="overview-table">
-            <thead>
-                <tr>
-                    <th>Category</th>
-                    <th>Title</th>
-                    <th>Period</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td><b>Work</b></td><td>Mirae Asset Securities Internship</td><td><span class="date-badge">2025.01 - 2025.02</span></td></tr>
-                <tr><td><b>Project</b></td><td>Quantum AI Contest (1st Place)</td><td><span class="date-badge">2025.07 - 2025.08</span></td></tr>
-                <tr><td><b>Club</b></td><td>T-um Team Manager (React/Supabase)</td><td><span class="date-badge">2025.03 - 2025.12</span></td></tr>
-                <tr><td><b>Research</b></td><td>Bachelor's Thesis (QGNN)</td><td><span class="date-badge">2024.09 - 2024.12</span></td></tr>
-                <tr><td><b>Military</b></td><td>ROKAF Squad Leader</td><td><span class="date-badge">2023.02 - 2023.07</span></td></tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section>
-        <h2>📖 Education</h2>
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-title">Seoul National University</span>
-                <span class="date-badge">2020.03 - Present</span>
+    <section id="education">
+        <h2><span class="section-icon">🎓</span> Academic Background</h2>
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Seoul National University (SNU)</span>
+                <span class="item-date">2020.03 - Present</span>
             </div>
+            <div class="item-sub">Rural Systems Engineering & Nuclear Engineering (Double Major)</div>
             <ul>
-                <li>Rural Systems Engineering & Nuclear Engineering (Double Major)</li>
-                <li><b>GPA: 3.92 / 4.30</b> (Exp. Graduation: Feb 2027)</li>
-                <li>Scholarships: Sangrok Cultural (Full), Dongwon (Full), On-Campus Customized (Full)</li>
+                <li>Cumulative <b>GPA: 3.92 / 4.30</b></li>
+                <li>Expected Graduation: <b>Feb 2027</b></li>
             </ul>
         </div>
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-title">Daejeon Science High School for the Gifted</span>
-                <span class="date-badge">2017.03 - 2020.02</span>
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Daejeon Science High School for the Gifted</span>
+                <span class="item-date">2017.03 - 2020.02</span>
             </div>
-            <ul>
-                <li>Major: Physics | Nuclear Creativity Contest (2nd Place)</li>
-            </ul>
+            <div class="item-sub">Major: Physics</div>
         </div>
     </section>
 
-    <section>
-        <h2>💡 Work & Project Experience</h2>
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-title">Mirae Asset Securities Internship</span>
-                <span class="date-badge">2025.01 - 2025.02</span>
+    <section id="honors">
+        <h2><span class="section-icon">🏅</span> Honors & Awards</h2>
+        <div class="item">
+            <div class="item-header"><span class="item-title">Quantum AI Contest (1st Place - Grand Prize)</span><span class="item-date">2025.08</span></div>
+            <ul><li>Hybrid AI model development & Renyi entropy estimation</li></ul>
+        </div>
+        <div class="item">
+            <div class="item-header"><span class="item-title">SNUVALUE Investment Club (1st Place)</span><span class="item-date">2025.Fall</span></div>
+            <ul><li>Winner of the SNUVALUE competition for the 2nd semester of 2025</li></ul>
+        </div>
+        <div class="item">
+            <div class="item-header"><span class="item-title">Agricultural Engineering Creativity Fair (3rd Place)</span><span class="item-date">2024.12</span></div>
+            <ul><li>Project: GNN-based defect detection</li></ul>
+        </div>
+        <div class="badge-list">
+            <span class="badge">Dean's List (2024.Fall)</span>
+            <span class="badge">Nuclear Creativity Contest (2nd Place, 2018)</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2><span class="section-icon">💻</span> Project & Research</h2>
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Bachelor's Thesis: QGNN-Based Failure Prediction Model</span>
+                <span class="item-date">2024.09 - 2024.12</span>
             </div>
             <ul>
-                <li>Analyzed Uranium producer <b>Cameco(CCJ)</b> and authored a sell report (TP: $33.62)</li>
-                <li>Automated data handling and visualization using <b>Excel VBA</b></li>
+                <li>Studied <b>Quantum Graph Neural Networks (QGNN)</b> for real-time damage prediction</li>
+                <li>Developed a visualization model to predict structural failure probabilities using AE sensors</li>
+                <li>Analyzed latest academic papers on QGNN architectures</li>
             </ul>
         </div>
-
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-title">Quantum AI Contest (1st Place)</span>
-                <span class="date-badge">2025.07 - 2025.08</span>
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Personal Project: Tarot-Themed Stamp System</span>
+                <span class="item-date">2025.03 - 2025.12</span>
             </div>
             <ul>
-                <li>Developed hybrid AI model for FashionMNIST (Accuracy: <b>0.9165</b>)</li>
-                <li>Implemented <b>Renyi entropy estimation</b> using classical shadow and binomial theorem</li>
-            </ul>
-        </div>
-
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-title">T-um Team Manager (CRM & User App)</span>
-                <span class="date-badge">2025.03 - 2025.12</span>
-            </div>
-            <ul>
-                <li>Developed tarot-themed stamp system using <b>React & Supabase</b></li>
-                <li>Deployed CRM merchant dashboard via <b>Vercel</b></li>
+                <li>Built a gamified stamp system for regional revitalization using <b>React</b> and <b>Supabase</b></li>
+                <li>Deployed CRM merchant dashboard and mobile-responsive app via <b>Vercel</b></li>
             </ul>
         </div>
     </section>
 
-    <section>
-        <h2>🛠 Skills & Others</h2>
-        <div class="skills-grid">
-            <div class="skill-cat">
-                <h4>Programming</h4>
-                <ul>
-                    <li>Python, C, Excel VBA</li>
-                    <li>React, SQL, Qiskit</li>
-                </ul>
+    <section id="leadership">
+        <h2><span class="section-icon">🚩</span> Activities & Leadership</h2>
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Squad Leader (ROKAF 11th Fighter Wing)</span>
+                <span class="item-date">2023.02 - 2023.07</span>
             </div>
-            <div class="skill-cat">
-                <h4>Certifications</h4>
-                <ul>
-                    <li>Investment Manager</li>
-                    <li>ADsP, Info. Processing</li>
-                </ul>
-            </div>
-            <div class="skill-cat">
-                <h4>Interests</h4>
-                <ul>
-                    <li>Quantum AI, Stocks</li>
-                    <li>Room Escape, Board Games</li>
-                </ul>
-            </div>
+            <ul>
+                <li>Taught advanced <b>Excel VBA</b> techniques, improving office speed by <b>50%</b></li>
+                <li>Mediated conflict resolution and ensured fair treatment within the organizational unit</li>
+            </ul>
         </div>
+        <div class="item">
+            <div class="item-header">
+                <span class="item-title">Chungbuk Science Gifted Mentoring</span>
+                <span class="item-date">2024.07 - 2024.11</span>
+            </div>
+            <ul>
+                <li>Designed a customized <b>Python</b> curriculum for science gifted mentees</li>
+                <li>Guided the development of a rhythm game project using <b>Pygame</b></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="scholarships">
+        <h2><span class="section-icon">💰</span> Scholarships</h2>
+        <ul>
+            <li><b>Sangrok Cultural Foundation:</b> Full (2024.Fall)</li>
+            <li><b>Dongwon Scholarship:</b> Full (2024.Spring)</li>
+            <li><b>On-Campus Customized:</b> Full (2025.Spring), Half (2021.Spring)</li>
+            <li><b>Agricultural Engineers:</b> Half (2021.Spring & Fall)</li>
+        </ul>
     </section>
 
     <footer>
