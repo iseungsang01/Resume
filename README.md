@@ -1,246 +1,313 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seung Sang LEE | Portfolio</title>
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
-    <style>
-        :root {
-            --primary-color: #003a71; /* SNU Blue */
-            --secondary-color: #607d8b;
-            --bg-color: #f8f9fa;
-            --card-bg: #ffffff;
-            --text-main: #333;
-            --text-sub: #666;
-            --accent: #007bff;
-        }
+# **Seung Sang, LEE** 🚀
 
-        body {
-            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--text-main);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
-        }
+> **Bachelor Student of Rural Systems Engineering & Nuclear Engineering** at **Seoul National University**
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
 
-        /* Header Section */
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
 
-        .profile-img {
-            width: 140px;
-            height: 170px;
-            object-fit: cover;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
+<div align="center">
 
-        h1 {
-            font-size: 2.5rem;
-            margin: 10px 0;
-            color: var(--primary-color);
-        }
+  <img src="https://raw.githubusercontent.com/iseungsang01/github.io/main/%EC%9D%B4%EC%8A%B9%EC%83%81_%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84.jpg?raw=true" alt="SeungSang Lee" width="130" style="border-radius: 12px;">
 
-        .subtitle {
-            font-size: 1.1rem;
-            color: var(--secondary-color);
-            margin-bottom: 20px;
-        }
+  <br><br>
 
-        .contact-links a {
-            text-decoration: none;
-            margin: 0 5px;
-            display: inline-block;
-        }
+  <a href="mailto:lss010330@snu.ac.kr"><img src="https://img.shields.io/badge/Email-lss010330@snu.ac.kr-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
 
-        /* Section Styling */
-        section {
-            background: var(--card-bg);
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
-            margin-bottom: 30px;
-        }
+  <a href="https://www.linkedin.com/in/%EC%8A%B9%EC%83%81-%EC%9D%B4-55560a27a/"><img src="https://img.shields.io/badge/LinkedIn-SeungSang_Lee-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/></a>
 
-        h2 {
-            font-size: 1.5rem;
-            border-left: 5px solid var(--primary-color);
-            padding-left: 15px;
-            margin-bottom: 25px;
-            color: var(--primary-color);
-            display: flex;
-            align-items: center;
-        }
+  <a href="https://glaze-frost-837.notion.site/NuScale-Power-25-09-28-27993068735680969e08c3fafc947a5d?source=copy_link"><img src="https://img.shields.io/badge/Notion-Stock_Report-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
 
-        .section-icon { margin-right: 10px; }
+  <a href="https://github.com/iseungsang01"><img src="https://img.shields.io/badge/GitHub-iseungsang01-181717?style=flat-square&logo=GitHub&logoColor=white"/></a>
 
-        /* Item Styling */
-        .item {
-            margin-bottom: 25px;
-            border-bottom: 1px solid #f0f0f0;
-            padding-bottom: 15px;
-        }
-
-        .item:last-child { border-bottom: none; }
-
-        .item-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            flex-wrap: wrap;
-        }
-
-        .item-title { font-weight: bold; font-size: 1.15rem; color: #111; }
-        .item-date { font-family: monospace; color: var(--text-sub); font-size: 0.9rem; background: #eee; padding: 2px 8px; border-radius: 4px; }
-        .item-sub { color: var(--secondary-color); font-style: italic; margin-bottom: 8px; font-size: 0.95rem; }
-
-        ul { padding-left: 20px; margin: 8px 0; }
-        li { margin-bottom: 6px; }
-        b { color: var(--primary-color); }
-
-        /* Award & Scholarship Badges */
-        .badge-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-        .badge { font-size: 0.85rem; padding: 3px 10px; border-radius: 20px; background: #eef2f7; color: var(--primary-color); border: 1px solid #d0dbe9; }
-
-        footer { text-align: center; padding: 40px 0; color: #999; font-size: 0.9rem; }
-
-        @media (max-width: 600px) {
-            .item-header { flex-direction: column; }
-            .item-date { margin-top: 5px; }
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <header>
-        <img src="https://raw.githubusercontent.com/iseungsang01/github.io/main/%EC%9D%B4%EC%8A%B9%EC%83%81_%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84.jpg?raw=true" alt="Seung Sang LEE" class="profile-img">
-        <h1>Seung Sang, LEE 🚀</h1>
-        <p class="subtitle">Bachelor Student of <b>Rural Systems Engineering & Nuclear Engineering</b> at SNU</p>
-        
-        <div class="contact-links">
-            <a href="mailto:lss010330@snu.ac.kr"><img src="https://img.shields.io/badge/Email-lss010330@snu.ac.kr-D14836?style=flat-square&logo=Gmail&logoColor=white"></a>
-            <a href="https://www.linkedin.com/in/%EC%8A%B9%EC%83%81-%EC%9D%B4-55560a27a/"><img src="https://img.shields.io/badge/LinkedIn-SeungSang_Lee-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"></a>
-            <a href="https://github.com/iseungsang01"><img src="https://img.shields.io/badge/GitHub-iseungsang01-181717?style=flat-square&logo=GitHub&logoColor=white"></a>
-        </div>
-    </header>
-
-    <section id="education">
-        <h2><span class="section-icon">🎓</span> Academic Background</h2>
-        <div class="item">
-            <div class="item-header">
-                <span class="item-title">Seoul National University (SNU)</span>
-                <span class="item-date">2020.03 - Present</span>
-            </div>
-            <div class="item-sub">Rural Systems Engineering & Nuclear Engineering (Double Major)</div>
-            <ul>
-                <li>Cumulative <b>GPA: 3.92 / 4.30</b></li>
-                <li>Expected Graduation: <b>Feb 2027</b></li>
-            </ul>
-        </div>
-        <div class="item">
-            <div class="item-header">
-                <span class="item-title">Daejeon Science High School for the Gifted</span>
-                <span class="item-date">2017.03 - 2020.02</span>
-            </div>
-            <div class="item-sub">Major: Physics</div>
-        </div>
-    </section>
-
-    <section id="honors">
-        <h2><span class="section-icon">🏅</span> Honors & Awards</h2>
-        <div class="item">
-            <div class="item-header"><span class="item-title">Quantum AI Contest (1st Place - Grand Prize)</span><span class="item-date">2025.08</span></div>
-            <ul><li>Hybrid AI model development & Renyi entropy estimation</li></ul>
-        </div>
-        <div class="item">
-            <div class="item-header"><span class="item-title">SNUVALUE Investment Club (1st Place)</span><span class="item-date">2025.Fall</span></div>
-            <ul><li>Winner of the SNUVALUE competition for the 2nd semester of 2025</li></ul>
-        </div>
-        <div class="item">
-            <div class="item-header"><span class="item-title">Agricultural Engineering Creativity Fair (3rd Place)</span><span class="item-date">2024.12</span></div>
-            <ul><li>Project: GNN-based defect detection</li></ul>
-        </div>
-        <div class="badge-list">
-            <span class="badge">Dean's List (2024.Fall)</span>
-            <span class="badge">Nuclear Creativity Contest (2nd Place, 2018)</span>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2><span class="section-icon">💻</span> Project & Research</h2>
-        <div class="item">
-            <div class="item-header">
-                <span class="item-title">Bachelor's Thesis: QGNN-Based Failure Prediction Model</span>
-                <span class="item-date">2024.09 - 2024.12</span>
-            </div>
-            <ul>
-                <li>Studied <b>Quantum Graph Neural Networks (QGNN)</b> for real-time damage prediction</li>
-                <li>Developed a visualization model to predict structural failure probabilities using AE sensors</li>
-                <li>Analyzed latest academic papers on QGNN architectures</li>
-            </ul>
-        </div>
-        <div class="item">
-            <div class="item-header">
-                <span class="item-title">Personal Project: Tarot-Themed Stamp System</span>
-                <span class="item-date">2025.03 - 2025.12</span>
-            </div>
-            <ul>
-                <li>Built a gamified stamp system for regional revitalization using <b>React</b> and <b>Supabase</b></li>
-                <li>Deployed CRM merchant dashboard and mobile-responsive app via <b>Vercel</b></li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="leadership">
-        <h2><span class="section-icon">🚩</span> Activities & Leadership</h2>
-        <div class="item">
-            <div class="item-header">
-                <span class="item-title">Squad Leader (ROKAF 11th Fighter Wing)</span>
-                <span class="item-date">2023.02 - 2023.07</span>
-            </div>
-            <ul>
-                <li>Taught advanced <b>Excel VBA</b> techniques, improving office speed by <b>50%</b></li>
-                <li>Mediated conflict resolution and ensured fair treatment within the organizational unit</li>
-            </ul>
-        </div>
-        <div class="item">
-            <div class="item-header">
-                <span class="item-title">Chungbuk Science Gifted Mentoring</span>
-                <span class="item-date">2024.07 - 2024.11</span>
-            </div>
-            <ul>
-                <li>Designed a customized <b>Python</b> curriculum for science gifted mentees</li>
-                <li>Guided the development of a rhythm game project using <b>Pygame</b></li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="scholarships">
-        <h2><span class="section-icon">💰</span> Scholarships</h2>
-        <ul>
-            <li><b>Sangrok Cultural Foundation:</b> Full (2024.Fall)</li>
-            <li><b>Dongwon Scholarship:</b> Full (2024.Spring)</li>
-            <li><b>On-Campus Customized:</b> Full (2025.Spring), Half (2021.Spring)</li>
-            <li><b>Agricultural Engineers:</b> Half (2021.Spring & Fall)</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>Copyright © 2026 Seung Sang LEE. All rights reserved.</p>
-    </footer>
 </div>
 
-</body>
-</html>
+
+
+---
+
+
+
+## 🚀 **Experience Overview**
+
+
+
+| Category | Title | Period |
+
+| :--- | :--- | :--- |
+
+| **Work** | **Mirae Asset Securities Internship (Innovative Research)** | **`2025.01 - 2025.02`** |
+
+| **Project** | **Quantum AI Contest (1st Place)** | **`2025.07 - 2025.08`** |
+
+| **Project** | **Structural Defect Detection System (AGENC 3rd)** | **`2024.07 - 2024.12`** |
+
+| **Research** | **Bachelor's Thesis (QGNN-Based Failure Prediction)** | **`2024.09 - 2024.12`** |
+
+| **Club** | **T-um Team Manager (Tarot Stamp System/CRM)** | **`2025.03 - 2025.12`** |
+
+| **Club** | **SNUVALUE (Investment Club 1st Place)** | **`2025.03 - 2025.12`** |
+
+| **Leadership** | **ROKAF Squad Leader (11th Fighter Wing)** | **`2023.02 - 2023.07`** |
+
+
+
+---
+
+
+
+## 📖 Education
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Seoul National University</b> (Rural Systems & Nuclear Engineering)</td>
+
+    <td align="right"><b><code>2020.03 - Present</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* **Cumulative GPA:** **3.92 / 4.30** (Expected Graduation: **Feb 2027**)
+
+* **Awards:** Quantum AI Contest (1st Place), Agricultural Engineering Creativity Fair (3rd Place)
+
+* **Scholarships:** * Sangrok Cultural Foundation (Full, 2024 2nd) | Dongwon Scholarship (Full, 2024 1st)
+
+  * Agricultural Engineers (Half, 2021 1st & 2nd) | On-Campus Customized (Full, 2021 1st)
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Daejeon Science High School for the Gifted</b> (Physics Major)</td>
+
+    <td align="right"><b><code>2017.03 - 2020.02</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* **Award:** Nuclear Creativity Contest (2nd Place, Team Leader)
+
+
+
+---
+
+
+
+## 💡 Work Experience
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Mirae Asset Securities Internship</b> (Innovative Companies Research Team)</td>
+
+    <td align="right"><b><code>2025.01 - 2025.02</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* Analyzed Uranium producer **Cameco (CCJ)** and authored a sell report (Target Price: **$33.62**).
+
+
+
+---
+
+
+
+## 💻 Project Experience
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Quantum AI Contest (1st Place)</b></td>
+
+    <td align="right"><b><code>2025.07 - 2025.08</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* Generated a hybrid AI model to classify FashionMNIST with **accuracy 0.9165** (25% improvement over baseline).
+
+* Implemented and verified **Renyi entropy estimation** for rational alpha values using classical shadow and binomial theorem.
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>T-um (Team Manager)</b></td>
+
+    <td align="right"><b><code>2025.03 - 2025.12</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* Developed a **tarot-themed stamp system & user app** using **React & Supabase**.
+
+* Built integrated CRM features and deployed via **Vercel** using AI-driven development tools.
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Bachelor's Thesis (SNU)</b></td>
+
+    <td align="right"><b><code>2024.09 - 2024.12</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* Title: *Development of QGNN-Based Failure Prediction Visualization Model.*
+
+* Analyzed latest academic papers on **Quantum Graph Neural Networks (QGNN)** and built a visualization model to predict failure probabilities.
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Structural Defect Detection System (AGENC FAIR 3rd Place)</b></td>
+
+    <td align="right"><b><code>2024.07 - 2024.12</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* Designed an integrated system combining **AE sensor-Arduino and Arduino-Python**.
+
+* Visualized the location and intensity of structure defects in steel plate and frame structures.
+
+
+
+---
+
+
+
+## 🚩 Activities & Leadership
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Squad Leader (ROKAF 11th Fighter Wing)</b></td>
+
+    <td align="right"><b><code>2023.02 - 2023.07</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* Taught advanced **Excel VBA** to squad members, improving administrative efficiency by **50%**.
+
+* Mediated organizational conflicts and ensured fair treatment within the unit.
+
+
+
+<table width="100%">
+
+  <tr>
+
+    <td align="left"><b>Chungbuk Science Gifted Mentoring (Information Division)</b></td>
+
+    <td align="right"><b><code>2024.07 - 2024.11</code></b></td>
+
+  </tr>
+
+</table>
+
+
+
+* Designed a customized **Python** curriculum and mentored students in building a rhythm game using **Pygame**.
+
+
+
+**Other Activities:**
+
+* **SNU SR (Social Contribution):** Mentor & Sub Team Manager (2024.03 - 2024.07)
+
+* **Academic Team Manager:** Rural Water Systems Design / Bio-Environment Control Engineering (2024)
+
+* **Vice President:** Rural Systems Engineering Sophomore Class (2021)
+
+
+
+---
+
+
+
+## 🛠 Skills & Interests
+
+
+
+### **Technical Stack**
+
+* **Programming:** C, Python, Excel VBA (Advanced)
+
+* **Frameworks/Tools:** React, Supabase, Vercel, Arduino, Pygame, Qiskit
+
+* **Specialty:** Quantum AI (QGNN)
+
+
+
+### **Certifications & Patent**
+
+* 📜 **Investment Asset Manager** (2025.01) | 📊 **ADsP** (2024.11)
+
+* 💻 **Craftsman Information Processing** (2021.12)
+
+* 💡 **Patent:** Synthesis Substitution Tool (No. 10-2017-0158027)
+
+
+
+### **Personal Interests**
+
+* **Labyrinth & Mystery:** Room Escape, Board Games, Mystery Books
+
+* **Service:** Educational Volunteer (SNU SR, Gifted Mentoring)
+
+* **Language:** Korean (Native), English (Fluent)
+
+
+
+---
+
+<p align="center">Copyright © 2026 SeungSang Lee. All rights reserved.</p>
