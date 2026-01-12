@@ -31,7 +31,8 @@
   📅 **Duration:** 2017.03 - 2020.02  
 <br>
 
-### 🏅 **Honors / Awards** - **[Quantum AI Contest](https://aifactory.space/task/9154/overview)** 🥇 **1st Place (Grand Prize)** | 2025.08 | Team SNU Engineers  
+### 🏅 **Honors / Awards**   
+- **[Quantum AI Contest](https://aifactory.space/task/9154/overview)** 🥇 **1st Place (Grand Prize)** | 2025.08 | Team SNU Engineers  
   *Hybrid AI model for FashionMNIST (Acc: 0.9165) & Renyi entropy estimation via Classical Shadow.*
 
 - **[SNUVALUE](https://snuvalue.com/) (Investment Club)**  
