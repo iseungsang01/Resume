@@ -18,11 +18,11 @@
 | :--- | :--- | :--- |
 | **Work** | **Mirae Asset Securities Internship (Innovative Research)** | **`2025.01 - 2025.02`** |
 | **Project** | **Quantum AI Contest (1st Place)** | **`2025.07 - 2025.08`** |
-| **Project** | **T-um Team Manager (Tarot Stamp System/CRM)** | **`2025.03 - 2025.12`** |
-| **Finance** | **SNUVALUE (Investment Club 1st Place)** | **`2025.03 - 2025.12`** |
-| **Research** | **Bachelor's Thesis (QGNN-Based Failure Prediction)** | **`2024.09 - 2024.12`** |
 | **Project** | **Structural Defect Detection System (AGENC 3rd)** | **`2024.07 - 2024.12`** |
-| **Military** | **ROKAF Squad Leader (11th Fighter Wing)** | **`2023.02 - 2023.07`** |
+| **Research** | **Bachelor's Thesis (QGNN-Based Failure Prediction)** | **`2024.09 - 2024.12`** |
+| **Club** | **T-um Team Manager (Tarot Stamp System/CRM)** | **`2025.03 - 2025.12`** |
+| **Club** | **SNUVALUE (Investment Club 1st Place)** | **`2025.03 - 2025.12`** |
+| **Activity** | **ROKAF Squad Leader (11th Fighter Wing)** | **`2023.02 - 2023.07`** |
 
 ---
 
@@ -61,7 +61,6 @@
 </table>
 
 * Analyzed Uranium producer **Cameco (CCJ)** and authored a sell report (Target Price: **$33.62**).
-* [📊 View Full Investment Report (Notion)](https://glaze-frost-837.notion.site/NuScale-Power-25-09-28-27993068735680969e08c3fafc947a5d?source=copy_link)
 
 ---
 
