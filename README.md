@@ -34,7 +34,8 @@
 ### 🏅 **Honors / Awards** - **[Quantum AI Contest](https://aifactory.space/task/9154/overview)** 🥇 **1st Place (Grand Prize)** | 2025.08 | Team SNU Engineers  
   *Hybrid AI model for FashionMNIST (Acc: 0.9165) & Renyi entropy estimation via Classical Shadow.*
 
-- **[SNUVALUE](https://snuvalue.com/) (Investment Club)** 🥇 **1st Place** | 2nd Semester, 2025
+- **[SNUVALUE](https://snuvalue.com/) (Investment Club)**  
+  🥇 **1st Place** | 2nd Semester, 2025
 
 - [**Agricultural Engineering Creativity Fair (AGENC FAIR)**](https://www.ksae.re.kr/notice/view.asp?key=232)  
   🥉 **3rd Place (Excellence Prize)** | 2024.12 | Team Gujodae (Leader)  
