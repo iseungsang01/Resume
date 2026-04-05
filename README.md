@@ -113,7 +113,7 @@
   </tr>
 </table>
 
-* Performed cross-industry equity research with an emphasis on structural industry shifts and valuation assumptions, contributing to a team-based analysis that **ranked 1st** among four peer teams.
+* Performed cross-industry equity research on Philip Morris Internation(NYSE: PM) with an emphasis on structural industry shifts and valuation assumptions, contributing to a team-based analysis that **ranked 1st** among four peer teams.
 
 
 ---
