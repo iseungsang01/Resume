@@ -16,7 +16,7 @@
 
 | Category | Title | Period |
 | :--- | :--- | :--- |
-| **Work** | **Mirae Asset Securities Internship (Innovative Research)** | **`2025.01 - 2025.02`** |
+| **Work** | **Mirae Asset Securities Internship (Research)** | **`2025.01 - 2025.02`** |
 | **Project** | **Quantum AI Contest (1st Place)** | **`2025.07 - 2025.08`** |
 | **Project** | **Structural Defect Detection System (AGENC 3rd)** | **`2024.07 - 2024.12`** |
 | **Research** | **Bachelor's Thesis (QGNN-Based Failure Prediction)** | **`2024.09 - 2024.12`** |
@@ -37,7 +37,7 @@
 
 * **Cumulative GPA:** **3.92 / 4.30** (Expected Graduation: **Feb 2027**)
 * **Awards:** Quantum AI Contest (1st Place), Agricultural Engineering Creativity Fair (3rd Place)
-* **Scholarships:** * Sangrok Cultural Foundation (Full, 2024 2nd) | Dongwon Scholarship (Full, 2024 1st)
+* **Scholarships:** Sangrok Cultural Foundation (Full, 2024 2nd) | Dongwon Scholarship (Full, 2024 1st)
   * Agricultural Engineers (Half, 2021 1st & 2nd) | On-Campus Customized (Full, 2021 1st)
 
 <table width="100%">
@@ -60,7 +60,7 @@
   </tr>
 </table>
 
-* Analyzed Uranium producer **Cameco (CCJ)** and authored a sell report (Target Price: **$33.62**).
+* Conducted valuation-driven equity research on Cameco(CCJ), maintaining a constructive view on the uranium cycle while applying a structural discount to reflect execution risks in the large-scale nuclear to SMR transition and geopolitical uncertainties in the nuclear supply chain, resulting in a $33.62 target price by SOTP method below market consensus
 
 ---
 
@@ -83,8 +83,8 @@
   </tr>
 </table>
 
-* Developed a **tarot-themed stamp system & user app** using **React & Supabase**.
-* Built integrated CRM features and deployed via **Vercel** using AI-driven development tools.
+* Led a consulting team to define retention strategies but **identified** that short-term events and manual KPIs lacked sustainability, prompting an **independent built a technical solution** beyond original constraints
+* Architected a dual-sided platform using **React and React Native**, replacing temporary fixes with an **automated retention loop and data reporting**, supported by a **Supabase(SQL)** backend 
 
 <table width="100%">
   <tr>
@@ -106,6 +106,16 @@
 * Designed an integrated system combining [**AE sensor-Arduino and Arduino-Python**](https://github.com/iseungsang01/Resume/blob/main/%EB%86%8D%EA%B3%B5%EC%B0%BD%EC%9D%98%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C_%EA%B5%AC%EC%A1%B0%EB%8C%80%ED%8C%80.pdf).
 * Visualized the location and intensity of structure defects in steel plate and frame structures.
 
+<table width="100%">
+  <tr>
+    <td align="left"><b>SNUVALUE</b></td>
+    <td align="right"><b><code>2025.03 - 2025.12</code></b></td>
+  </tr>
+</table>
+
+* Performed cross-industry equity research with an emphasis on structural industry shifts and valuation assumptions, contributing to a team-based analysis that **ranked 1st** among four peer teams.
+
+
 ---
 
 ## 🚩 Activities & Leadership
@@ -117,8 +127,7 @@
   </tr>
 </table>
 
-* Taught advanced **Excel VBA** to squad members, improving administrative efficiency by **50%**.
-* Mediated organizational conflicts and ensured fair treatment within the unit.
+* Trained squad members in advanced Excel VBA-based automation techniques, reducing routine reporting time by up to 50% and improving operational accuracy across the unit
 
 <table width="100%">
   <tr>
@@ -127,7 +136,7 @@
   </tr>
 </table>
 
-* Designed a customized **Python** curriculum and mentored students in building a rhythm game using **Pygame**.
+* Designed an interest-driven Python curriculum and led a hands-on project that resulted in an interactive rhythm game prototype, publicly demonstrated in a poster session to showcase user engagement and functionality
 
 **Other Activities:**
 * **SNU SR (Social Contribution):** Mentor & Sub Team Manager (2024.03 - 2024.07)
